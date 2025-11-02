@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Keep real trading strategies private
+src/tradingbridge/strategies/private/
