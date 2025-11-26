@@ -1,12 +1,10 @@
-# Trading Bridge
+# Trading Bridge (Outline)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 TradingBridge provides a modular pipeline for systematic trading automation.
 
 Incoming TradingView alerts invoke an AWS Lambda via webhooks, which validates the signal against your configured strategy, determines trade direction and size, and executes the order through your broker integration.
-
-< Add an optional screenshot of your project below >
 
 **Table of Contents**
 
@@ -27,8 +25,9 @@ Incoming TradingView alerts invoke an AWS Lambda via webhooks, which validates t
 
 ## Technologies
 
-TradingBridge uses the following technologies and tools:
-
+TradingBridge (will use) the following technologies and tools:
+- TradingView Webhook Alerts
+- Python Lambda function deployed to AWS
 
 ## Features
 
@@ -46,12 +45,6 @@ To contribute to the development of < project's name >, follow the steps below:
 4. Commit your changes (`git commit -am 'Add some new feature'`)
 5. Push to the branch (`git push origin feature-new`)
 6. Create a new pull request
-
-## Contributors
-
-## Author
-
-Roman Collinge – [@AuthorTwitter](https://twitter.com/< username >)
 
 ## License
 
